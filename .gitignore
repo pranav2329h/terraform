@@ -1,0 +1,10 @@
+.terraform.lock.hcl
+.terraform/
+*.tfstate
+*.tfstate.backup
+# Ignore crash log files
+crash.log
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+listener.pem
