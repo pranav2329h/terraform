@@ -173,7 +173,7 @@
 # Remote State with S3 + Locking with DynamoDB
 
 provider "aws" {
-    region = var.aws_region
+    region = var.aws_regin
 }
 
 data "aws_ami" "amazon_linux" {
